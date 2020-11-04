@@ -57,8 +57,8 @@ By default, application shortcuts are created on the desktop and the Windows Sta
 
 **`MyApp.lnk` (Application Shortcut)**
 
-* **Target:** `C:\Users\kbailey\AppData\Local\MyApp\Update.exe --processStart MyApp.exe`
-* **Start in:** `C:\Users\kbailey\AppData\Local\MyApp\app-1.0.0`
+* **Target:** `%USERNAME%MyApp\Update.exe --processStart MyApp.exe`
+* **Start in:** `%USERNAME%MyApp\app-1.0.0`
 
 
 ## See Also
@@ -71,4 +71,6 @@ By default, application shortcuts are created on the desktop and the Windows Sta
 ---
 | Return: [Table of Contents](../readme.md) |
 |----|
+
+
 
